@@ -607,7 +607,9 @@
         }
         
     }
-
+   
+    setInterval(changepos,10000,1);
+    
 
     function changepos(change){
         const elemact = Number(document.querySelector('.slide--show').dataset.id)

@@ -27,6 +27,7 @@ header img {
   gap: 2px;
   font-size: 13px;
   padding: 3px;
+  padding: 10px 0px;
 }
 .nav-ul {
   position: sticky;
@@ -37,11 +38,11 @@ header img {
 nav a {
   color: white;
   text-decoration: none;
-
+  font-size: 15px;
   text-align: center;
   /* background-color: greenyellow; */
   border-radius: 30px;
-  padding: 0px 5px;
+  padding: 5px 5px;
   border: solid 1px white;
 }
 .container {
@@ -53,6 +54,10 @@ nav a {
   align-items: center;
   margin-top: 10px;
 }
+
+.hide h6{
+  font-weight: 800;
+}
 .slide__cuerpo {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -60,7 +65,8 @@ nav a {
   pointer-events: none;
   overflow: hidden;
   width: 100%;
-  transition: 0.4s;
+  transition: 0.8s;
+  z-index: -5;
 }
 
 .slide--show {
@@ -218,7 +224,7 @@ nav a {
 footer{
   background-color: black;
   width: 100%;
-  height: 40px;
+  height: 60px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -241,4 +247,14 @@ footer a{
   padding: 2px;
   border-radius: 20px;
 
+}
+footer p{
+  text-align: center;
+  font-size: 10px;
+  margin: auto 3px;
+}
+.div__footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
