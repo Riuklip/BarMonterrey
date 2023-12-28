@@ -608,7 +608,7 @@
         
     }
    
-    setInterval(changepos,10000,1);
+    setInterval(changepos,6000,1);
     
 
     function changepos(change){
